@@ -12,7 +12,7 @@ func main() {
 }
 
 func sumup(startingValue int, numbers ...int) int {
-	sum := 0
+	sum := startingValue
 
 	for _, val := range numbers {
 		sum += val // sum = sum + val
